@@ -1,0 +1,850 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.nav-bar{
+    height: 50px;
+    width: 1515PX;
+    background-color: rgb(13, 27, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px ;
+    
+}
+.logo-and-brand-name-nav-div{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 60px;
+    background-color: aquamarine;
+    background-image:url("logo.png") ;
+    background-size: cover;
+}
+.brand-name-nav{
+    font-family: "broadway" ;
+    color: rgb(197, 214, 214);
+}
+.Home{
+   color: rgb(119, 141, 169);
+}
+.Home:hover{
+    color: white;
+    font-size: larger;
+}
+.about{
+    margin: 50px;
+    color: rgb(119, 141, 169);
+}
+.about:hover{
+    color: white;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+.shop{
+    height: 30px;
+    width: 100px;
+     color:rgb(119, 141, 169);
+     background-color: rgb(13, 27, 42);
+}
+.shop:hover{
+    color: white;
+    font-size: 15px;
+    width: 120px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    height:50PX ;
+    width: 350px;
+    
+}
+.search-bar-place-holder{
+    height: 30px;
+    width: 500px;
+    border-radius: 10px 0 0 10px ;
+    
+}
+.magnifing-glass{
+    height: 35px;
+    width: 75px;
+   background-image: url("magnifying-glass-icon.jpg");
+   background-size: cover;
+    border-radius: 0 10px 10px 0 ;
+}
+.home-appliances-nav{
+   color: rgb(119, 141, 169);
+}
+.home-appliances-nav:hover{
+    color: white;
+    font-size: larger;
+}
+.Laptops-phones-nav{
+   color: rgb(119, 141, 169);
+}
+.Laptops-phones-nav:hover{
+    color: white;
+    font-size: larger;
+    width: 150px;
+}
+.gadgets-nav{
+    color: rgb(119, 141, 169);
+}
+.gadgets-nav:hover{
+    color: white;
+    font-size: larger;
+}
+/* intro page */
+.background-cover-first-page-index{
+        height: 800px;
+        width: 1519PX;
+        background-image: url("banner\ two.jpg");
+        background-size: cover;
+        padding-top: 0%;
+ }
+ .brand-name{
+    font-size: 150px;
+    font-family: "broadway" ;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: rgb(197, 214, 214);
+    text-shadow: 10px 10px 10px rgb(26, 26, 51);
+
+
+}
+.salogan{
+    font-size: 60px;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px rgb(26, 26, 51);
+
+}
+.introductive-page-button{
+    height: 60px;
+    width: 200px;
+    background-color: cadetblue;
+    color: rgb(18, 31, 31);
+    font-size: larger;
+    border-radius: 10px;
+    position: absolute;
+    top: 500px;
+    left: 600px ;
+}
+.introductive-page-button:active{
+    background-color: aquamarine;
+    color: black;
+    font-size:25px ;
+}
+/* starting form */
+p{
+    text-align: center;
+    font-weight: bold;
+}
+legend{
+    color: rgb(224, 225, 221);
+    align-items: center;
+    text-align: center;
+    text-decoration: bold;
+    text-transform: uppercase;
+}
+fieldset{
+    background-color: rgba(65, 90, 119,0.5);
+    border:5px solid rgb(27, 38, 59);
+    box-shadow: 1px 2px 15px rgb(119, 141, 169);
+    margin-left: 600px;
+    margin-right: 50px;
+    margin-top: 80px;
+   height: 500px;
+   width: 400px;
+    border-radius: 10px;
+    padding-top: 20px ;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.button:hover{
+    background-color: aqua;
+}
+/* .form-div{
+    margin-left: 500px;
+    margin-top: 80px;
+
+} */
+.background-cover-first-page{
+    height: 800px;
+    width: 1519PX;
+  padding-top: 10px;
+  
+    background-image:url("banner\ two.jpg");
+    background-size: cover;
+}
+/* .input-one{
+    border: none;
+    border: 2px solid black;
+    border-radius: 20px;
+   width: 50px;
+   height: 10px;
+} */
+.singin-box{
+    width: 360px;
+    height: 700px;
+   margin: auto;
+    border-radius: 3px;
+}
+form{
+    width: 300px;
+    margin-top: 20px;
+}
+form label{
+   display: flex;
+   margin: 10px;
+   font-size: 15px;
+   margin-left: 35px;
+}
+form input{
+   border: none;
+   border: 224, 225, 221;
+   border-radius: 6px;
+    padding:15px ;
+    width: 300px;
+    height: 5px;
+    margin-left: 35px;
+
+}
+.for-discount-class{
+    margin-left: 110px;
+    font-size: 16px;
+    color: rgb(119, 141, 169);
+}
+.sign-in-button{
+    /* height: 23px; */
+    height: 4px;
+    width: 200px;
+    border-radius: 6px;
+   margin-top: 35px;
+   margin-left:45px;
+   margin-bottom: 50px;
+  font-size: 10px;
+  display:inline;
+}
+.city{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 15px;
+    align-items: center;
+  
+}
+.city-word{
+    font-size: 16px;
+}
+select{
+    height: 20px;
+}
+p{
+    font-size: 10px;
+}
+.edit{
+    font-weight: 100px; 
+}
+.sign-in-button{
+    width: 300px;
+    height: 50;
+    margin-left:720px;
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+}
+.city{
+    font-size: 15px;
+    font-weight: 2px;
+    margin-left: 35px;
+}
+.sign-in-button:hover{
+    color:white;
+    background-color: rgb(27, 38, 59);
+    font-size: large; 
+}
+.sign-in-button:active{
+    font-size: large;
+    color: white;
+   background-color: rgb(27, 38, 59);
+}
+.background-cover-first-home{
+    height: 800px;
+    width: 1519PX;
+}
+.after{
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    font-size: 50px;
+    font-family:"BAHNSCHRIFT LIGHT SEMI CONDENSED";
+    color: rgb(224, 225, 221);
+    text-shadow: 3px 3px 3px rgb(119, 141, 169);
+}
+.now{
+    margin-top: 250px;
+    margin-left: 780px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.now:hover{
+    color: white;
+    background-color: rgb(27, 38, 59);
+    font-size: large;
+  
+}
+/* /home-page/ */
+.background-cover-first-home-page{
+    height: 300px;
+    width: 1519PX;
+    background-image: url("banner\ two.jpg");
+    background-size: cover;
+}
+.brand-name-home-page{
+    font-family: "broadway";
+    color:rgb(197, 214, 214);
+    text-shadow:10px 10px 10px rgb(26, 26, 51); 
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    font-size: 80px;
+}
+.slogan-home-page{
+    text-shadow:10px 10px 10px rgb(26, 26, 51); 
+    font-size: 50px;
+    color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+.background-color-home-page{
+    /* background-color: rgb(2, 35, 134,); */
+    height: 450px;
+}
+.big-home-page-div-flex{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.home-page-box-flex{
+    background-color: rgb(11, 31, 53);
+    height: 380px;
+    width: 350px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.home-appliances-box{
+    font-size: 25px;
+    color: rgb(209, 223, 241) ;
+}
+.home-page-box-boxes-flex{
+    /* background-color: aquamarine; */
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px
+}
+.home-page-box-1-boxes-flex{
+    /* background-color: aquamarine; */
+    background-image:url("mobiles-laptops.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px
+}
+.shop-now{
+    color: rgb(119, 141, 169) ;
+}
+.shop-now:hover{
+    color: red;
+} 
+.shop-now:active{
+    color: red;
+    font-size: large;
+}
+
+.home-page-box-2-box-2_1{
+    height: 150px;
+    width: 300px;
+    background-image: url("ps5-picture.jpg");
+    background-size: cover;
+}
+
+.home-page-box-2-box-2_3{
+    background-image: url("airpods.jpg");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-color: rgb(187, 117, 33);
+}
+.home-page-box-2-box-2_4{
+    background-image: url("charger.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(19, 12, 4);
+}
+
+.home-page-box-3-boxes-flex{
+    /* background-color: aquamarine; */
+    background-image:url("appliances-picture.png") ;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px
+}
+.home-page-box-2-boxes-flex{
+    /* background-color: aquamarine; */
+    height: 300px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px
+}
+/*footer*/
+.footer{
+    background-color: rgb(13, 27, 42);
+    padding: 50px;
+  
+}
+footer a{
+    color: rgb(119, 141, 169);
+}
+.container{
+    max-width: 1170px;
+   
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.footer-col{
+    width: 350px;
+    padding: 15px;
+    position: relative;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: beige;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.official_links{
+    margin-top: 50px;
+   margin-left: 600px;
+    width: 500px;
+
+
+}
+.official_links a{
+    margin-left:5px ;
+    
+}
+/* laptop and mobiles */
+.background-color{
+   background-color: rgb(65, 90, 119);
+    height: 800px;
+    width: 1520px;
+    padding-top: 30px;
+}
+.div-item-container{
+    display: flex;
+    background-color: #ffffff;
+    margin: 20px;
+    margin-top: 0;
+   
+}
+.shop-deal-bar-1{
+    height: 350px;
+    width: 1430px;
+   padding: 5px  ;
+   
+  
+}
+.shop-deal-bar-1 h2{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5PX;
+}
+.shop-deal-bar-divs-flex-div{
+    display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+.shop-deal-bar-1-div-1{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-1-pic-1{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 247, 247, 0.945);
+}
+.shop-deal-bar-1-pic-1{
+    height: 200px;
+    width: 260px;
+    background-image: url("shop-deal-bar-1-pic-1.jpeg");
+    background-size: cover;
+}
+.shop-deal-bar-div-offer-content{
+    height:100px ;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.shop-deal-bar-offer{
+    background-color: rgb(181, 25, 25) ;
+    height: 20px; 
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    color: white;
+}
+.deal-and-deal-text-flex-div{
+    display: flex;
+    align-items: center;
+}
+.deal-doller-price-flex-div{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    justify-content: space-evenly;
+   
+   
+}
+.deal-doller-price-flex-div p{
+    font-size: 15px;
+}
+.list-price{
+    font-size: 13px;
+    color: #616161;
+    font-weight: 500;
+    
+}
+.add-text-decortion-in-list-price{
+    font-size: 13px;
+    color: #616161;
+    font-weight: 500;
+    text-decoration-line: line-through;
+    
+}
+.product-name-of-deal-bar{
+    font-size: 16px;
+
+}
+
+
+.shop-deal-bar-1-div-2{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-2-pic-2{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 247, 247, 0.945);
+}
+.shop-deal-bar-1-pic-2{
+    height: 200px;
+    width: 300px;
+    background-image: url("shop-deal-bar-1-pic-2.jpeg");
+    background-size: cover;
+}
+
+
+.shop-deal-bar-1-div-3{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-3-pic-3{
+    height: 200px;
+    width: 210px;
+    background-color: rgba(247, 247, 247, 0.945);
+}
+.shop-deal-bar-1-pic-3{
+    height: 250px;
+    width: 300px;
+    background-image: url("shop-deal-bar-1-pic-3.jpeg");
+    background-size: cover;
+}
+
+
+.shop-deal-bar-1-div-4{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-4-pic-4{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 247, 247, 0.945);
+    
+}
+.shop-deal-bar-1-pic-4{
+    height: 200px;
+    width: 245px;
+    background-image: url("shop-deal-bar-1-pic-4.jpeg");
+    background-size: cover;
+}
+/* /mobile-bar/ */
+
+
+.shop-deal-bar-1 h2{
+    display: inline-block;
+   margin: 10px;
+   margin-left: 20px;
+}
+.shop-deal-bar-divs-flex-div{
+    display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+.shop-deal-bar-1-div-1{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-1-pic-1{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 247, 247, 0.945);
+}
+.shop-deal-bar-2-pic-1{
+    height: 200px;
+    width: 200px;
+    background-image: url("shop-deal-bar-2-pic-1.jpeg");
+    background-size: cover;
+}
+.shop-deal-bar-div-offer-content{
+    height:100px ;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.shop-deal-bar-offer{
+    background-color: rgb(181, 25, 25) ;
+    height: 20px; 
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    color: white;
+}
+.deal-and-deal-text-flex-div{
+    display: flex;
+    align-items: center;
+}
+.deal-doller-price-flex-div{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    justify-content: space-evenly;
+   
+}
+.list-price{
+    font-size: 13px;
+    color: #616161;
+    font-weight: 500;
+    
+}
+.add-text-decortion-in-list-price{
+    font-size: 13px;
+    color: #616161;
+    font-weight: 500;
+    text-decoration-line: line-through;
+    
+}
+.product-name-of-deal-bar{
+    font-size: 16px;
+
+}
+
+.shop-deal-bar-1-div-2{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-2-pic-2{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 247, 247, 0.945);
+}
+.shop-deal-bar-2-pic-2{
+    height: 200px;
+    width: 180px;
+    background-image: url("shop-deal-bar-2-pic-2.jpeg");
+    background-size: cover;
+}
+
+
+.shop-deal-bar-1-div-3{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-3-pic-3{
+    height: 200px;
+    width: 210px;
+    background-color: rgba(247, 247, 247, 0.945);
+}
+.shop-deal-bar-2-pic-3{
+    height: 200px;
+    width: 200px;
+    background-image: url("shop-deal-bar-2-pic-3.jpeg");
+    background-size: cover;
+}
+
+
+.shop-deal-bar-1-div-4{
+    height: 300px;
+    width: 230px;
+}
+.shop-deal-bar-1-div-4-pic-4{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 247, 247, 0.945);
+    
+}
+.shop-deal-bar-2-pic-4{
+    height: 200px;
+    width: 200px;
+    background-image: url("shop-deal-bar-2-pic-4.jpeg");
+    background-size: cover;
+}
+/*gadgets*/
+.shop-deal-bar-1-pic-1-gadgets{
+    height: 210px;
+    width: 260px;
+    background-image: url("headphones.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-1-pic-2-gadgets{
+    height: 200px;
+    width: 300px;
+    background-image: url("airpodss.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-1-pic-3-gadgets{
+    height: 234px;
+    width: 300px;
+    background-image: url("power\ bank.jpeg");
+    background-size: cover;
+}
+.shop-deal-bar-1-pic-4-gadgets{
+    height: 210px;
+    width: 300px;
+    background-image: url("gadgets.jpg");
+    background-size: cover;
+}
+/*shop deal bar 2 gadgets/*/
+.shop-deal-bar-2-pic-1-gadgets{
+    height: 200px;
+    width: 200px;
+    background-image: url("mouse.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-2-pic-2-gadgets{
+    height: 200px;
+    width: 200px;
+    background-image: url("laser.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-2-pic-3-gadgets{
+    height: 200px;
+    width: 200px;
+    background-image: url("keyboard.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-2-pic-4-gadgets{
+    height: 200px;
+    width: 200px;
+    background-image: url("watch.jpeg");
+    background-size: cover;
+}
+
+/*home-appliances*/
+.shop-deal-bar-1-pic-1-home-appliances{
+    height: 200px;
+    width: 260px;
+    background-image: url("shop-deal-bar-1-pic-1-home-appliances.jpeg");
+    background-size: cover;
+}
+.shop-deal-bar-1-pic-2-home-appliances{
+    height: 200px;
+    width: 300px;
+    background-image: url("regifi.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-1-pic-3-home-appliances{
+    height: 200px;
+    width: 320px;
+    background-image: url("juiceer.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-1-pic-4-home-appliances{
+    height: 200px;
+    width: 300px;
+    background-image: url("leed.jpg");
+    background-size: cover;
+}
+/*shop deal bar 2 gadgets/*/
+.shop-deal-bar-2-pic-1-home-appliances{
+    height: 200px;
+    width: 200px;
+    background-image: url("ROOM\ COOLER.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-2-pic-2-home-appliances{
+    height: 200px;
+    width: 200px;
+    background-image: url("HEATER.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-2-pic-3-home-appliances{
+    height: 200px;
+    width: 200px;
+    background-image: url("automatic\ washing\ machine.jpg");
+    background-size: cover;
+}
+.shop-deal-bar-2-pic-4-home-appliances{
+    height: 200px;
+    width: 200px;
+    background-image: url("remote\ fan.jpg");
+    background-size: cover;
+}
+.about-us-page{
+    font-size: 20px;
+    font-weight: 20px;
+    margin-left: 20px;
+    height: 300px;
+    margin-top: 50px;
+    color: rgb(13, 27, 42);
+}
